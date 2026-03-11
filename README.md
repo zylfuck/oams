@@ -1,5 +1,7 @@
 # OAMS - OpenAgent Memory Standard
 
+English | [中文](README.zh.md)
+
 > A framework-agnostic standard for AI agent memory migration.
 
 ## Overview
