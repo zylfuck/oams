@@ -27,13 +27,19 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        # Core dependencies
+        "pydantic>=2.0.0",
+        "click>=8.0.0",
     ],
     extras_require={
         "dev": [
             "pytest>=7.0",
             "black>=22.0",
             "mypy>=0.950",
+        ],
+    },
+    entry_points={
+        "console_scripts": [
+            "oams=oams.cli:main",
         ],
     },
 )
